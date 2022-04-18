@@ -1,0 +1,17 @@
+@local=http://localhost:3000
+@users=users
+
+### POST /users
+POST {{local}}/{{users}} HTTP/1.1
+
+### GET /users
+GET {{local}}/{{users}} HTTP/1.1
+
+### GET /users/1
+GET {{local}}/{{users}}/1 HTTP/1.1
+
+### PATCH /users/1
+PATCH {{local}}/{{users}}/1 HTTP/1.1
+
+### DELETE /users/1
+DELETE {{local}}/{{users}}/1 HTTP/1.1
